@@ -1,8 +1,6 @@
 import {Arg, Mutation, Query, Resolver} from "type-graphql";
-import {PrismaClient} from "@prisma/client";
-import {User} from "../entities/User";
-
-const prisma = new PrismaClient();
+import {User} from '../../generated/type-graphql'
+import {prisma} from "../context";
 
 @Resolver()
 export class UserResolver {

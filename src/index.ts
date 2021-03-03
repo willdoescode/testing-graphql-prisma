@@ -5,7 +5,6 @@ import { buildSchema } from "type-graphql"
 import {HelloWorldResolver} from "./resolvers/HelloWorldResolver";
 import {UserResolver} from "./resolvers/UserResolver";
 
-
 (async () => {
 	const app = express()
 
