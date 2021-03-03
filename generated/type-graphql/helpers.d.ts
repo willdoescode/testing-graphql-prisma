@@ -1,2 +1,0 @@
-export declare function transformFields(fields: Record<string, any>): Record<string, any>;
-export declare function getPrismaFromContext(context: any): any;
