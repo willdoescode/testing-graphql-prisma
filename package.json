@@ -20,6 +20,8 @@
     "type-graphql": "^1.1.1"
   },
   "devDependencies": {
+    "@types/morgan": "^1.9.2",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.7",
     "prisma": "^2.18.0",
     "ts-node": "^9.1.1",
